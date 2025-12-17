@@ -1,24 +1,56 @@
-# content-engine-automation
+\# content-engine-automation
+
+
 
 \## Local setup
 
 
 
-1\) Install deps:
+\### Prerequisites
+
+\- Node.js 18+
+
+\- Git
+
+\- An OpenAI API key
+
+
+
+\### Steps
+
+
+
+1\) Install dependencies:
 
 npm install
 
 
 
-2\) Create .env (do not commit):
+2\) Create local environment file (do NOT commit this):
 
 copy .env.example .env
 
 
 
-3\) Run local test:
+Then edit `.env` and add your OpenAI API key.
+
+
+
+3\) Run the local test:
 
 npm run test:local
+
+
+
+You should see a JSON object printed to the terminal containing:
+
+\- status
+
+\- notes
+
+\- draft\_content
+
+\- timestamps
 
 
 

@@ -1,0 +1,26 @@
+{
+  "input": {
+    "id": 0,
+    "content_pillar": "string",
+    "idea": "string",
+    "tone": "string",
+    "status": "string",
+    "notes": "string"
+  },
+  "output": {
+    "status": "string",
+    "notes": "string",
+    "draft_content": "string",
+    "timestamp": "ISO-8601 datetime string",
+    "Readable date": "string",
+    "Readable time": "string",
+    "Day of week": "string",
+    "Year": "number",
+    "Month": "number",
+    "Day of month": "number",
+    "Hour": "number",
+    "Minute": "number",
+    "Second": "number",
+    "Timezone": "string"
+  }
+}
